@@ -1,0 +1,358 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+	<!-- home intro -->
+	<div id="home" class="home-intro">
+		<div class="container">
+			<div class="row align-items-center">
+				<div class="col-md-6 col-sm-12 col-xs-12">
+					<div class="content-text">
+						<h2>We Will Provide <br> Creative <span>Digital</span> <br> <span>Agency</span></h2>
+					</div>
+				</div>
+				<div class="col-md-6 col-sm-12 col-xs-12">
+					<div class="content-image">
+						<img src="{% static 'images/home-image.jpg' %}" alt="">
+						<div class="wave-object">
+							<img class="object-top" src="{% static 'images/wave-line2.png' %}" alt="">
+							<img class="object-bottom" src="{% static 'images/wave-line2.png' %}" alt="">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- end home intro -->
+
+	<!-- vission section -->
+	<div class="vission-section section">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-md-6 col-sm-12">
+					<div class="row">
+						<div class="col-md-4 col-sm-4 col-xs-12">
+							<div class="content">
+								<div class="bg-icon">
+									<i class="icon ion-ios-ribbon"></i>
+								</div>
+								<h5>Experienced</h5>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-4 col-xs-12">
+							<div class="content">
+								<div class="bg-icon">
+									<i class="icon ion-ios-sync"></i>
+								</div>
+								<h5>Consistent</h5>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-4 col-xs-12">
+							<div class="content">
+								<div class="bg-icon">
+									<i class="icon ion-ios-checkmark-circle-outline"></i>
+								</div>
+								<h5>Trusted</h5>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- end vission section -->
+
+	<!-- services -->
+	<div id="services" class="services section-bottom-only">
+		<div class="section-title">
+			<h5 class="title-top">Services</h5>
+			<h3>Lets Choose Our Services</h3>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3 col-sm-6 col-xs-12">
+					<div class="content">
+						<div class="icon">
+							<i class="icon ion-ios-phone-portrait"></i>
+						</div>
+						<h5>Mobile Apps and Development</h5>
+						<div class="service-category">
+							<span>Design</span>
+						</div>
+						<a href="" class="button button-secondary">More <i class="icon ion-ios-arrow-forward"></i></a>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-12">
+					<div class="content">
+						<div class="icon">
+							<i class="icon ion-ios-desktop"></i>
+						</div>
+						<h5>UI/UX and Frontend Design</h5>
+						<div class="service-category">
+							<span>Design</span>
+						</div>
+						<a href="" class="button button-secondary">More <i class="icon ion-ios-arrow-forward"></i></a>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-12">
+					<div class="content">
+						<div class="icon">
+							<i class="icon ion-ios-color-palette"></i>
+						</div>
+						<h5>Graphic Design and Game Asset</h5>
+						<div class="service-category">
+							<span>Design</span>
+						</div>
+						<a href="" class="button button-secondary">More <i class="icon ion-ios-arrow-forward"></i></a>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-12">
+					<div class="content">
+						<div class="icon">
+							<i class="icon ion-ios-trending-up"></i>
+						</div>
+						<h5>Social Marketing and Social</h5>
+						<div class="service-category">
+							<span>Design</span>
+						</div>
+						<a href="" class="button button-secondary">More <i class="icon ion-ios-arrow-forward"></i></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- end services -->
+
+	<!-- project -->
+	<div id="project" class="project section-bottom-only">
+		<div class="container">
+			<div class="section-title">
+				<h5 class="title-top">Project</h5>
+				<h3>Our Latest Projects</h3>
+			</div>
+			<div class="row">
+				<div class="col-md-6 col-sm-12 col-xs-12">
+					<div class="content">
+						<img src="{% static 'images/project1.jpg' %}" alt="">
+						<div class="project-caption">
+							<h5 class="category-project">Digital</h5>
+							<h3 class="title-project">Digital Artwork</h3>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 col-sm-12 col-xs-12">
+					<div class="content">
+						<img src="{% static 'images/project2.jpg' %}" alt="">
+						<div class="project-caption">
+							<h5 class="category-project">Design</h5>
+							<h3 class="title-project">Creative Design</h3>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-6 col-sm-12 col-xs-12">
+					<div class="content">
+						<img src="{% static 'images/project3.jpg' %}" alt="">
+						<div class="project-caption">
+							<h5 class="category-project">Marketing</h5>
+							<h3 class="title-project">Digital Analytic</h3>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 col-sm-12 col-xs-12">
+					<div class="content">
+						<img src="{% static 'images/project4.jpg' %}" alt="">
+						<div class="project-caption">
+							<h5 class="category-project">Digital</h5>
+							<h3 class="title-project">Modern Design</h3>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- end project -->
+
+	<!-- pricing table -->
+	<div id="pricing" class="pricing section-bottom-only">
+		<div class="container">
+			<div class="section-title">
+				<h5 class="title-top">Pricing</h5>
+				<h3>Creative Pricing Table</h3>
+			</div>
+			<div class="row">
+				<div class="col-md-4 col-sm-12 col-xs-12">
+					<div class="content">
+						<i class="icon ion-ios-cube"></i>
+						<h4>Basic</h4>
+						<ul>
+							<li>Responsive</li>
+							<li>Documentation</li>
+							<li class="not-active">Support</li>
+							<li class="not-active">Multimedia</li>
+							<li class="not-active">Creative</li>
+							<li class="not-active">Modern</li>
+							<li class="not-active">Free Update</li>
+						</ul>
+						<span class="price">$20</span>
+						<button class="button button-full-width">Buy Now</button>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-12 col-xs-12">
+					<div class="content recommended-price">
+						<i class="icon ion-ios-checkmark-circle"></i>
+						<h4>Standard</h4>
+						<ul>
+							<li>Responsive</li>
+							<li>Documentation</li>
+							<li>Support</li>
+							<li>Multimedia</li>
+							<li class="not-active">Creative</li>
+							<li class="not-active">Modern</li>
+							<li class="not-active">Free Update</li>
+						</ul>
+						<span class="price">$40</span>
+						<button class="button button-full-width button-secondary">Buy Now</button>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-12 col-xs-12">
+					<div class="content premium-price">
+						<i class="icon ion-ios-ribbon"></i>
+						<h4>Premium</h4>
+						<ul>
+							<li>Responsive</li>
+							<li>Documentation</li>
+							<li>Support</li>
+							<li>Multimedia</li>
+							<li>Creative</li>
+							<li>Modern</li>
+							<li>Free Update</li>
+						</ul>
+						<span class="price">$60</span>
+						<button class="button button-full-width">Buy Now</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- end pricing table -->
+
+	<!-- testimonial -->
+	<div id="testimonial" class="testimonial section-bottom-only">
+		<div class="container">
+			<div class="section-title">
+				<h5 class="title-top">Testimonial</h5>
+				<h3>What Our Client Says</h3>
+			</div>
+			<div class="row no-gutters align-items-center">
+				<div class="col-md-6 col-sm-12 col-xs-12">
+					<div class="content-image">
+						<img src="{% static 'images/testimonial-image.jpg' %}" alt="">
+					</div>
+				</div>
+				<div class="col-md-6 col-sm-12 col-xs-12">
+					<div class="content-right">
+						<div class="swiper-container swiper-testimonial">
+							<div class="swiper-wrapper">
+								<div class="swiper-slide">
+									<div class="content">
+										<div class="title-name">
+											<h5>Ferdinand</h5>
+											<span>Web Developer</span>
+										</div>
+										<img class="wave-line" src="{% static 'images/wave-line.png' %}" alt="">
+										<div class="testi-desc">
+											<p>Lorem ipsum dolor sit amet consectetur adipisicing, elit. Voluptas, beatae officiis voluptatum ducimus blanditiis quas, a vitae vero iusto voluptatem eos et quos enim quia tempora</p>
+										</div>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="content">
+										<div class="title-name">
+											<h5>John Doe</h5>
+											<span>Manager</span>
+										</div>
+										<img class="wave-line" src="{% static 'images/wave-line.png' %}" alt="">
+										<div class="testi-desc">
+											<p>Lorem ipsum dolor sit amet consectetur adipisicing, elit. Voluptas, beatae officiis voluptatum ducimus blanditiis quas, a vitae vero iusto voluptatem eos et quos enim quia tempora</p>
+										</div>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="content">
+										<div class="title-name">
+											<h5>Jonathan</h5>
+											<span>Produt Manager</span>
+										</div>
+										<img class="wave-line" src="{% static 'images/wave-line.png' %}" alt="">
+										<div class="testi-desc">
+											<p>Lorem ipsum dolor sit amet consectetur adipisicing, elit. Voluptas, beatae officiis voluptatum ducimus blanditiis quas, a vitae vero iusto voluptatem eos et quos enim quia tempora</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- end testimonial -->
+
+	<!-- contact us -->
+	<div id="contact" class="contact">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6">
+					<div class="section-title section-title-left">
+						<h5 class="title-top">Contact Us</h5>
+						<h3>Lets Get Started <br> With Us</h3>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="content-form form-contact">
+						<form action="{% url 'contact' %}" class="contact-form" id="contact-form" method="POST">{% csrf_token %}
+							<div class="row">
+								<div class="col">
+									<div id="name-field" class="form-group">
+										<label for="nameField">Name</label>
+										<input type="text" name="name" id="nameField" placeholder="Enter your full name">
+									</div>
+								</div>
+								<div class="col">
+									<div id="email-field" class="form-group">
+										<label for="emailField">Email</label>
+										<input type="email" name="mail" id="emailField" placeholder="Your valid email">
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col">
+									<div id="subject-field" class="form-group">
+										<label for="subjectField">Subject</label>
+										<input type="text" name="subject" id="subjectField" placeholder="Your subject">
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col">
+									<div id="message-field" class="form-group">
+										<label for="messageField">Message</label>
+										<textarea cols="30" rows="5" id="messageField" name="message" placeholder="Enter message here"></textarea>
+									</div>
+								</div>
+							</div>
+							<div class="button-submit">
+								<button class="button button-secondary" type="submit" id="submit" name="enter">Contact Us<i class="icon ion-ios-arrow-forward"></i></button>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+
+	</div>
+	<!-- end contact us -->
+{% endblock %}
